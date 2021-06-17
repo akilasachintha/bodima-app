@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="@color/teal_200"
+    android:background="@color/teal_700"
     tools:context=".MainActivity2">
 
     <ImageView
@@ -31,6 +31,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/et_username"
             android:hint="Enter Username"
+            android:textSize="15dp"
             android:textColor="@android:color/white"
             android:textColorHint="@android:color/white"
             android:background="@android:color/transparent"/>
@@ -54,6 +55,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/et_password"
             android:hint="Enter Password"
+            android:textSize="15dp"
             android:textColor="@android:color/white"
             android:textColorHint="@android:color/white"
             android:background="@android:color/transparent"/>
@@ -61,12 +63,16 @@
 
     <Button
         android:id="@+id/bt_submit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="164dp"
+        android:layout_height="67dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/round_button"
         android:text="Log in"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:gravity="center" />
+
 
 
 </LinearLayout>
