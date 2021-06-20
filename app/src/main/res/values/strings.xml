@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Recycler View</string>
+    <string name="bording_holder_name">Name</string>
+    <string name="Bording_phone_number">Phone Number</string>
+    <string name="Bording_address">Address</string>
+    <string name="bording_no_of_beds">No of Beds</string>
+    <string name="add_button">Add</string>
+    <string name="view_button">View</string>
+    <string name="password">Password</string>
+    <string name="already_registered_login">Already registered? Login.</string>
+    <string name="same_password">Enter Password Again</string>
+    <string name="new_password">Enter Password</string>
+    <string name="add_bodim">Add Bodim</string>
+    <string name="phone">Phone</string>
+    <string name="_94_321_432_1243">+94 321 432 1243</string>
+    <string name="address">Address</string>
+    <string name="beach_road_matara">Beach Road, Matara</string>
+    <string name="_10">10</string>
+    <string name="beds">Beds</string>
+    <string name="name">Name</string>
+    <string name="akila_sachintha">Akila Sachintha</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="not_registered_resister">Not registered? Resister.</string>
+    <string name="search">Search</string>
+    <string name="add_bodim_places">Add Bodim Places</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="enter_password">Enter Password</string>
+</resources>
