@@ -8,34 +8,52 @@
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/bording_logo"
+        android:contentDescription="@string/logo" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:gravity="center"
         android:textSize="30sp"
-        android:layout_marginBottom="70dp"
+        android:layout_marginBottom="50dp"
         android:text="@string/login"/>
 
     <EditText
         android:id="@+id/login_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawablePadding="12dp"
+        android:padding="7dp"
+        android:background="@drawable/custom_input"
         android:hint="@string/enter_email_address"
+        android:drawableStart="@drawable/ic_email"
         android:inputType="text"
+        android:layout_marginBottom="15dp"
         android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/login_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawablePadding="12dp"
+        android:padding="7dp"
+        android:drawableStart="@drawable/ic_lock"
         android:hint="@string/enter_password"
+        android:background="@drawable/custom_input"
         android:inputType="textPassword"
+        android:layout_marginBottom="15dp"
         android:importantForAutofill="no"/>
 
     <Button
         android:id="@+id/login_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
         android:text="@string/login"/>
 
     <TextView

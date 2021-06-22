@@ -8,17 +8,27 @@
     android:orientation="vertical"
     tools:context=".RegisterActivity">
 
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/bording_logo"
+        android:contentDescription="@string/logo" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="30sp"
-        android:layout_marginBottom="70dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="40dp"
         android:text="@string/register"/>
 
     <EditText
         android:id="@+id/register_name"
         android:layout_width="match_parent"
+        android:padding="7dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_input"
         android:layout_height="wrap_content"
         android:hint="@string/enter_email_address"
         android:inputType="text"
@@ -28,6 +38,9 @@
         android:id="@+id/register_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_input"
         android:hint="@string/new_password"
         android:inputType="textPassword"
         android:importantForAutofill="no"/>
@@ -36,6 +49,9 @@
         android:id="@+id/retype_register_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_input"
         android:hint="@string/same_password"
         android:inputType="textPassword"
         android:importantForAutofill="no"/>
@@ -43,6 +59,7 @@
 
     <Button
         android:id="@+id/register_btn"
+        android:layout_marginBottom="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/register"/>
