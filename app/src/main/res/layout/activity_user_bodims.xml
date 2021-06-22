@@ -7,13 +7,21 @@
     android:orientation="vertical"
     android:layout_margin="20dp">
 
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/bording_logo"
+        android:contentDescription="@string/logo" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:textColor="@color/black"
         android:textSize="30sp"
-        android:layout_marginBottom="70dp"
-        android:text="@string/add_bodim_places"/>
+        android:layout_marginBottom="40dp"
+        android:text="Add Bording Places"/>
 
 
     <LinearLayout
@@ -28,6 +36,9 @@
             android:layout_height="wrap_content"
             android:hint="@string/bording_holder_name"
             android:inputType="text"
+            android:background="@drawable/custom_input"
+            android:padding="7dp"
+            android:layout_marginBottom="10dp"
             android:importantForAutofill="no" />
         <EditText
             android:id="@+id/edit_phone"
@@ -35,6 +46,9 @@
             android:layout_height="wrap_content"
             android:hint="@string/Bording_phone_number"
             android:inputType="text"
+            android:background="@drawable/custom_input"
+            android:padding="7dp"
+            android:layout_marginBottom="10dp"
             tools:ignore="TextFields"
             android:importantForAutofill="no" />
         <EditText
@@ -42,6 +56,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/Bording_address"
+            android:background="@drawable/custom_input"
+            android:padding="7dp"
+            android:layout_marginBottom="10dp"
             android:inputType="text"
             android:importantForAutofill="no" />
         <EditText
@@ -49,6 +66,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/bording_no_of_beds"
+            android:background="@drawable/custom_input"
+            android:padding="7dp"
+            android:layout_marginBottom="10dp"
             android:inputType="text"
             android:importantForAutofill="no" />
     </LinearLayout>
@@ -62,13 +82,14 @@
             android:id="@+id/add_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/add_button"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:text="@string/add_button" />
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="0dp"/>
         <Button
             android:id="@+id/view_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/view_button"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:text="@string/view_button" />
     </LinearLayout>
 </LinearLayout>
